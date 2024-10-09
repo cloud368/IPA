@@ -1,171 +1,139 @@
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP下载页面</title>
-    <link rel="stylesheet" href="index.css">
+    <title>香港六合彩开奖结果</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .disclaimer {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+        .special-number {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <div id="app" data-v-app="">
-        <div class="nav-box md:max-w-[400px] w-full text-center pr-6 pl-6">
-            <div class="animate__animated animate__flipInX ring-1 ring-slate-900/10 rounded py-5 px-4">
-                <div MiFun="" class="mb-6"><img MiFun="" class="main-img" src="https://cloud368.github.io/IPA/img/bg1.jpg" alt="" sizes="" srcset="">
-                    <h1 MiFun="" class="text-lg font-semibold">测试</h1>
-                    <p MiFun="" class="text-xs text-slate-500">这里是简介</p>
-                    <p MiFun="" class="text-xs text-slate-500">这里是简介</p>
-                    <p MiFun="" class="text-xs text-slate-500">这里是简介</p>
-                </div>
-                <div MiFun="" class="w-full flex justify-center items-center bg-slate-400/10 rounded py-2 px-2 shadow-inner mb-5" style="background-color: rgba(148, 163, 184, 0.1) !important;">
-				
-				
-                    <div id="android" class="bgswhite shadow-sm link flex-1 rounded py-2 px-2 text-sm">安卓</div>
-                    <div id="ios" class="text-slate-500 link flex-1 text-sm py-2 px-2 rounded">苹果</div>
-					<div id="dbt1" class="text-slate-500 link flex-1 text-sm py-2 px-2 rounded">鸿蒙</div>
-					<div id="dbt2" class="text-slate-500 link flex-1 text-sm py-2 px-2 rounded">其他</div>
-					
-					
-                </div>
-				
-				
-				
-                <div id='android-disp' MiFuns="" MiFun="" class="animate__animated animate__fadeIn">
-                    <div MiFuns="">
-                      <!-- 这里是安卓apk下载链接内容--> 
-					<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://6htvxz.com/6htv_1.0.9_code_109.apk">直连下载 - 1<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://">网盘下载 - 2<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">官方群<span MiFuns="" class="ml-3"></span></a>
-						 <p MiFun="" class="text-xs text-slate-500">欢迎同行我们APP加入备用下载，保证稳定！</p>
-						
-					</div>
-            </div>
-			
-			
-                <div id='ios-disp' MiFuns="" MiFun="" class="animate__animated animate__fadeIn" style="display: none;">
-                    <div MiFuns="">
-					<!-- 这里是苹果ios下载链接内容--> 
-					<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://lyfom9.com.tewtwt.top/mmpnd?p=z6MvMpa8O9g6N5B6">下载线路 - 1<span MiFuns="" class="ml-3">状态：🟢</span></a>
-					<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">下载线路 - 2<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">官方群<span MiFuns="" class="ml-3"></span></a>
-						 <p MiFun="" class="text-xs text-slate-500">欢迎同行我们APP加入备用下载，保证稳定！</p>
-						
-					</div>
-                    <div MiFuns="" class="ipa">
-     
-                        </div>
-                </div>
-				
-				
-				
-				<div id='dbt1-disp' MiFuns="" MiFun="" class="animate__animated animate__fadeIn">
-                    <div MiFuns="">
-                    <!-- 这里是鸿蒙xx下载链接内容-->   
-					<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">直连下载 - 1<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://">网盘下载 - 2<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">官方群<span MiFuns="" class="ml-3"></span></a>
-						 <p MiFun="" class="text-xs text-slate-500">欢迎同行我们APP加入备用下载，保证稳定！</p>
-						
-					</div>
-            </div>
-			
-			
-			<!-- 这里修改按钮四按钮4的文字内容-->
-			<div id='dbt2-disp' MiFuns="" MiFun="" class="animate__animated animate__fadeIn">
-                    <div MiFuns="">
-                     <!-- 这里是其他下载链接内容-->     
-					<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">电视TV下载 - 直连<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://">电视TV下载 - 网盘<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">电脑WIN下载 - 直连<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="https://">电脑WIN下载 - 网盘<span MiFuns="" class="ml-3">状态：🟢</span></a>
-						<a MiFuns="" class="text-xs mb-5 block bg-slate-900 rounded text-white w-full text-sm px-4 py-2" target="_blank" href="http://">官方群<span MiFuns="" class="ml-3"></span></a>
-						 <p MiFun="" class="text-xs text-slate-500">欢迎同行我们APP加入备用下载，保证稳定！</p>
-						
-					</div>
-            </div>
-				
-				
-				
-				
-				
-            </div>
-            <div class="text-xs text-slate-500 mt-8">Copyright © 2024 灵雲</div>
+    <div class="container">
+        <h1>香港六合彩开奖结果</h1>
+        <div class="disclaimer">
+            <p><strong>免责声明：</strong>本页面显示的数据来源于 <a href="https://lottery.hk/liuhecai/jieguo/" target="_blank">https://lottery.hk/liuhecai/jieguo/</a>。本页面仅用于个人学习和研究目的。</p>
         </div>
+        <table id="lotteryResults">
+            <tr>
+                <th>期数</th>
+                <th>开奖日期</th>
+                <th>开奖号码</th>
+            </tr>
+        </table>
     </div>
-    </div>
-	
-	
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var iosButton = document.getElementById('ios');
-    var androidButton = document.getElementById('android');
-    var dbt1Button = document.getElementById('dbt1');
-    var dbt2Button = document.getElementById('dbt2');
 
-    var iOSDiv = document.getElementById('ios-disp');
-    var androidDiv = document.getElementById('android-disp');
-    var disp1Div = document.getElementById('dbt1-disp');
-    var disp2Div = document.getElementById('dbt2-disp');
+    <script>
+        async function fetchLotteryResults() {
+            try {
+                const proxyUrl = 'https://api.allorigins.win/raw?url=';
+                const targetUrl = 'https://lottery.hk/liuhecai/jieguo/';
+                console.log('Fetching data from:', proxyUrl + encodeURIComponent(targetUrl));
+                const response = await fetch(proxyUrl + encodeURIComponent(targetUrl));
+                const html = await response.text();
+                console.log('Received HTML:', html.substring(0, 200) + '...'); // 记录前200个字符
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const rows = doc.querySelectorAll('table.table-striped tr');
+                console.log('Found rows:', rows.length);
+                const results = [];
+                rows.forEach((row, index) => {
+                    if (index === 0) return; // 跳过表头行
+                    const cells = row.querySelectorAll('td');
+                    if (cells.length >= 3) {
+                        results.push({
+                            issue: cells[0].textContent.trim(),
+                            date: cells[1].textContent.trim(),
+                            numbers: cells[2].textContent.trim()
+                        });
+                    }
+                });
+                console.log('Parsed results:', results);
+                return results;
+            } catch (error) {
+                console.error('Error fetching lottery results:', error);
+                return [];
+            }
+        }
 
-    // 默认显示 Android 内容，隐藏 iOS 内容、disp1 和 disp2
-    iosButton.style.backgroundColor = '';
-    androidButton.style.backgroundColor = 'white';
-    dbt1Button.style.backgroundColor = '';
-    dbt2Button.style.backgroundColor = '';
-    iOSDiv.style.display = 'none';
-    androidDiv.style.display = 'block';
-    disp1Div.style.display = 'none';
-    disp2Div.style.display = 'none';
+        function updateTable(results) {
+            const table = document.getElementById('lotteryResults');
+            results.forEach(result => {
+                const row = table.insertRow(-1);
+                const issueCell = row.insertCell(0);
+                const dateCell = row.insertCell(1);
+                const numbersCell = row.insertCell(2);
+                issueCell.textContent = result.issue;
+                dateCell.textContent = result.date;
+                numbersCell.innerHTML = result.numbers.replace(/特别号/g, '<span class="special-number">特别号</span>');
+            });
+            console.log('Table updated with', results.length, 'rows');
+        }
 
-    // 点击 Android 按钮时切换显示 Android 内容、隐藏 iOS 内容、disp1 和 disp2
-    androidButton.addEventListener('click', function() {
-      iOSDiv.style.display = 'none';
-      androidDiv.style.display = 'block';
-      disp1Div.style.display = 'none';
-      disp2Div.style.display = 'none';
-      iosButton.style.backgroundColor = '';
-      androidButton.style.backgroundColor = 'white';
-      dbt1Button.style.backgroundColor = '';
-      dbt2Button.style.backgroundColor = '';
-    });
+        async function refreshResults() {
+            console.log('Refreshing results...');
+            const results = await fetchLotteryResults();
+            if (results.length > 0) {
+                document.getElementById('lotteryResults').innerHTML = '<tr><th>期数</th><th>开奖日期</th><th>开奖号码</th></tr>';
+                updateTable(results);
+            } else {
+                console.log('No results found');
+                document.getElementById('lotteryResults').innerHTML += '<tr><td colspan="3">暂无数据，请稍后再试。</td></tr>';
+            }
+        }
 
-    // 点击 iOS 按钮时切换显示 iOS 内容、隐藏 Android 内容、disp1 和 disp2
-    iosButton.addEventListener('click', function() {
-      iOSDiv.style.display = 'block';
-      androidDiv.style.display = 'none';
-      disp1Div.style.display = 'none';
-      disp2Div.style.display = 'none';
-      iosButton.style.backgroundColor = 'white';
-      androidButton.style.backgroundColor = '';
-      dbt1Button.style.backgroundColor = '';
-      dbt2Button.style.backgroundColor = '';
-    });
+        // 初始加载
+        refreshResults();
 
-    // 点击 dbt1 按钮时切换显示 disp1 内容、隐藏 iOS 内容、Android 内容和 disp2
-    dbt1Button.addEventListener('click', function() {
-      iOSDiv.style.display = 'none';
-      androidDiv.style.display = 'none';
-      disp1Div.style.display = 'block';
-      disp2Div.style.display = 'none';
-      iosButton.style.backgroundColor = '';
-      androidButton.style.backgroundColor = '';
-      dbt1Button.style.backgroundColor = 'white';
-      dbt2Button.style.backgroundColor = '';
-    });
-
-    // 点击 dbt2 按钮时切换显示 disp2 内容、隐藏 iOS 内容、Android 内容和 disp1
-    dbt2Button.addEventListener('click', function() {
-      iOSDiv.style.display = 'none';
-      androidDiv.style.display = 'none';
-      disp1Div.style.display = 'none';
-      disp2Div.style.display = 'block';
-      iosButton.style.backgroundColor = '';
-      androidButton.style.backgroundColor = '';
-      dbt1Button.style.backgroundColor = '';
-      dbt2Button.style.backgroundColor = 'white';
-    });
-  });
-</script>
-	  
-	  
-	  
+        // 每5分钟刷新一次
+        setInterval(refreshResults, 5 * 60 * 1000);
+    </script>
 </body>
+</html>
